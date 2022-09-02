@@ -1,0 +1,116 @@
+body {
+    background-image: url('bg.png');
+}
+
+div.search #req-text {
+    color: rgba(0, 99, 145, 0.842);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+input#search-text {
+    display:inline;
+    width: 60%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #a7e5f8;
+    background-color: rgba(58, 44, 119, 0.527);
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input#search-text:active {
+    border: 1px solid #ffffff;
+}
+
+.engines ul {
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+.engines ul li {
+    float: left;
+    padding-left: 3%;
+}
+
+.engines #google a {
+    background-image: url('google_search.png');
+    background-color: rgba(1, 20, 20, 0.5);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    display: block;
+    width: 300px;
+    height: 150px;
+    text-decoration: none;
+    cursor: copy;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.engines #google a:hover {
+    background-color: rgba(22, 18, 41, 0.65);
+    background-size: 280px;
+}
+
+.engines #yandex a {
+    background-image: url('yandex_search.png');
+    background-color: rgba(1, 20, 20, 0.5);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    display: block;
+    width: 300px;
+    height: 150px;
+    text-decoration: none;
+    cursor: copy;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.engines #yandex a:hover {
+    background-color: rgba(22, 18, 41, 0.65);
+    background-size: 280px;
+}
+
+.engines #youtube a {
+    background-image: url('youtube_search.png');
+    background-color: rgba(1, 20, 20, 0.5);
+    background-size: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    display: block;
+    width: 300px;
+    height: 150px;
+    text-decoration: none;
+    cursor: copy;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.engines #youtube a:hover {
+    background-color: rgba(22, 18, 41, 0.65);
+    background-size: 280px;
+}
